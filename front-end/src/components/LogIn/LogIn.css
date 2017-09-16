@@ -57,6 +57,8 @@
   background: none;
   border: none;
   padding-bottom: 5px;
+  color: var(--white-color);
+  outline: none;
 }
 
 #log-in input::placeholder {
