@@ -1,0 +1,36 @@
+{
+  "name": "byob",
+  "version": "1.0.0",
+  "description": "collection of world child malnutrition data provided by Unicef",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/routes.spec.js",
+    "start": "nodemon server/app.js",
+    "lint": "./node_modules/.bin/eslint ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "knex": "^0.13.0",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
+    "pg": "^6.4.0",
+    "xlsx-to-json": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
