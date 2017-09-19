@@ -9,18 +9,6 @@ export default class LogIn extends Component {
     };
   }
 
-  // <form>
-  //   <input id='event-name' value={this.state.name} onChange={event => this.setState({name: event.target.value})}/>
-  //   <input id='event-details' value={this.state.details} onChange={event => this.setState({details: event.target.value})}/>
-  //   <button id='submit-event' onClick={(event)=> {
-  //             this.props.handleClick({name: this.state.name, details: this.state.details})
-  //             event.preventDefault()
-  //             this.clearState()
-  //           }}>
-  //           Submit
-  //   </button>
-  // </form>
-
   render() {
     return (
       <section id='login-wrapper'>

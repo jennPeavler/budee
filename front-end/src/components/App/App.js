@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import LogIn from '../LogIn/LogIn';
-import { Dummy } from '../Dummy/Dummy';
+import { LandingPage } from '../LandingPage/LandingPage';
 
 import './App.css';
 
@@ -18,11 +18,9 @@ export default class App extends Component {
     return (
       <main id='app-wrap'>
         <Switch>
-          <Route path='/dummy' component={ Dummy } />
           <Route path='/login' component={ LogIn } />
+          <Route path='/' component={ LandingPage } />
         </Switch>
-        <h1>What's up party people.  Make some noise.</h1>
-
       </main>
     );
   }

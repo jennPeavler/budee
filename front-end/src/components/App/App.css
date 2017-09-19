@@ -1,2 +1,16 @@
 @import './normalize.css';
 @import '../LogIn/LogIn.css';
+@import '../LandingPage/LandingPage.css';
+@import '../NavBar/NavBar.css';
+
+@import url('https://fonts.googleapis.com/css?family=Muli:200,400,700');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+:root {
+  --black-color: #333333;
+  --white-color: #FDFEFD;
+  --brown-color: #98552D;
+  --purple-color: #6338A9;
+  --green-color: #A5F53D;
+}

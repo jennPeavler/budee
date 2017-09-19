@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:200,400,700');
 
-:root {
-  --black-color: #333333;
-  --white-color: #FDFEFD;
-  --brown-color: #98552D;
-  --purple-color: #6338A9;
-  --green-color: #A5F53D;
-}
 
 #login-wrapper {
   font-family: 'Muli', sans-serif;
