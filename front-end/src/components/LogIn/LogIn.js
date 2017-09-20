@@ -21,7 +21,7 @@ export default class LogIn extends Component {
         </nav>
         <section id='log-in'>
           <header>
-            <h1>Hello Budee</h1>
+            <h1>Hello <span>Budee</span></h1>
             <img src={require('../../assets/images/leaf-logo.svg')} alt='marijuana leaf logo' />
             <h3>Puff Puff Give</h3>
           </header>

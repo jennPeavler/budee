@@ -8,6 +8,9 @@ export const LandingPage = () => {
         <h1>Budee</h1>
         <NavBar></NavBar>
       </header>
+      <section>
+
+      </section>
     </main>
   )
 }
