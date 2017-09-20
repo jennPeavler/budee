@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class LogIn extends Component {
   constructor() {
@@ -12,6 +13,12 @@ export default class LogIn extends Component {
   render() {
     return (
       <section id='login-wrapper'>
+        <nav>
+          <Link id='home-link' to='/'>
+            <img src={require('../../assets/images/home.svg')} />
+            <p>home</p>
+          </Link>
+        </nav>
         <section id='log-in'>
           <header>
             <h1>Hello Budee</h1>
