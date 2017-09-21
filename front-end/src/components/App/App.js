@@ -7,7 +7,6 @@ import { LandingPage } from '../LandingPage/LandingPage';
 import './App.css';
 
 export default class App extends Component {
-
   componentWillMount() {
     fetch('/api/v1/simpleTest')
     .then(response => response.json())
