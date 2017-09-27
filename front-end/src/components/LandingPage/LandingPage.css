@@ -58,7 +58,7 @@
   margin-left: -300px;
 }
 
-.landing-photo-container:hover p {
+.landing-photo-container:hover div {
   margin-right: 0px;
   left: 0px;
 }
@@ -71,11 +71,21 @@
 }
 
 .landing-photo-hidden-text {
+  text-align: center;
+  /*padding: 10px;*/
+  transition: all 400ms ease-in-out;
+}
+
+.landing-photo-hidden-text-wrapper {
   position: absolute;
   left: 300px;
-  /*float: right;
-  margin-right: -300px;*/
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
   transition: all 400ms ease-in-out;
+  width: 100%;
 }
 
 /*.landing-photo {
