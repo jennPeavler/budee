@@ -6,21 +6,6 @@
   background: rgba(51, 51, 51, 0.9);
 }
 
-/*#landing-page-wrapper::after {
-  content: "";
-  background: url('../../assets/images/rainbow-smoke.jpg');
-  opacity: 0.8;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}*/
-
 #landing-page-wrapper header {
   display: flex;
   align-items: center;
@@ -43,10 +28,6 @@
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-.landing-photo {
-  width: 28%;
-=======
 .landing-photo-container {
   background-size: cover;
   display: block;
@@ -92,44 +73,9 @@
   width: 100%;
 }
 
-/*.landing-photo {
->>>>>>> 1c39a62eede6500112c4cc09212a8d3ecbd20509
-  height: 220px;
-  transition: 0.5s;
-  opacity: 1;
-  visibility: visible;
-<<<<<<< HEAD
-}
-=======
-}*/
->>>>>>> 1c39a62eede6500112c4cc09212a8d3ecbd20509
-
-/*.hide {
-  border: 3px solid magenta;
-  opacity: 1;
-  visibility: hidden;
-}*/
-
-/*.bottom-row {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-  }
-}*/
-
 #landing-photo-grid .bottom-row {
   margin-top: 30px;
 }
-<<<<<<< HEAD
-=======
 
 .photo-container-bg-1 {
   background: #44be7b;
@@ -149,4 +95,3 @@
 .photo-container-bg-6 {
   background: #ac0b2e;
 }
->>>>>>> 1c39a62eede6500112c4cc09212a8d3ecbd20509
