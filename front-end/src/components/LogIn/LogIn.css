@@ -1,20 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:200,400,700');
-
-:root {
-  --black-color: #333333;
-  --white-color: #FDFEFD;
-  --brown-color: #98552D;
-  --purple-color: #6338A9;
-  --green-color: #A5F53D;
-}
-
 #login-wrapper {
   font-family: 'Muli', sans-serif;
   height: 100vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: var(--white-color);
 }
 
@@ -33,13 +20,34 @@
   background-size: cover;
 }
 
+#login-wrapper nav {
+  width: 10%;
+  position: absolute;
+  right: 1%;
+  top: 0;
+}
+
+#login-wrapper #home-link {
+  display: flex;
+  align-items: center;
+  font-size: 1.4em;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+#login-wrapper nav img {
+  height: 40px;
+  width: 40px;
+}
+
 #log-in {
   display: flex;
   flex-direction: column;
   background: rgba(51, 51, 51, 0.9);
-  /*border: 1px solid black;*/
   width: 40%;
+  margin-left: 30%;
   height: 80%;
+  margin-top: 5%;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 10px #131313, 0px 0px 10px #131313;
@@ -53,10 +61,16 @@
   margin-bottom: 10%;
 }
 
+#log-in h1 {
+  font-family: 'Pacifico', cursive;
+}
+
 #log-in input {
   background: none;
   border: none;
   padding-bottom: 5px;
+  color: var(--white-color);
+  outline: none;
 }
 
 #log-in input::placeholder {
