@@ -2,24 +2,23 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import LogIn from '../LogIn/LogIn';
-import { Dummy } from '../Dummy/Dummy';
+import { LandingPage } from '../LandingPage/LandingPage';
 
 import './App.css';
 
 export default class App extends Component {
-
-  componentWillMount() {
-    fetch('/api/v1/simpleTest')
-    .then(response => response.json())
-    .then(data => console.log(data));
-  }
+  // componentWillMount() {
+  //   fetch('/api/v1/simpleTest')
+  //   .then(response => response.json())
+  //   .then(data => console.log(data));
+  // }
 
   render() {
     return (
-      <main id='app-wrap'>
+      <main id="app-wrap">
         <Switch>
-          <Route path='/dummy' component={ Dummy } />
-          <Route path='/' component={ LogIn } />
+          <Route path="/login" component={LogIn} />
+          <Route path="/" component={LandingPage} />
         </Switch>
       </main>
     );

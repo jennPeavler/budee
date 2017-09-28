@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class LogIn extends Component {
   constructor() {
@@ -9,24 +10,18 @@ export default class LogIn extends Component {
     };
   }
 
-  // <form>
-  //   <input id='event-name' value={this.state.name} onChange={event => this.setState({name: event.target.value})}/>
-  //   <input id='event-details' value={this.state.details} onChange={event => this.setState({details: event.target.value})}/>
-  //   <button id='submit-event' onClick={(event)=> {
-  //             this.props.handleClick({name: this.state.name, details: this.state.details})
-  //             event.preventDefault()
-  //             this.clearState()
-  //           }}>
-  //           Submit
-  //   </button>
-  // </form>
-
   render() {
     return (
       <section id='login-wrapper'>
+        <nav>
+          <Link id='home-link' to='/'>
+            <img src={require('../../assets/images/home.svg')} />
+            <p>home</p>
+          </Link>
+        </nav>
         <section id='log-in'>
           <header>
-            <h1>Hello Budee</h1>
+            <h1>Hello <span>Budee</span></h1>
             <img src={require('../../assets/images/leaf-logo.svg')} alt='marijuana leaf logo' />
             <h3>Puff Puff Give</h3>
           </header>
