@@ -6,7 +6,7 @@
 }
 
 #login-wrapper::after {
-  content: "";
+  content: '';
   background: url('../../assets/images/rainbow-smoke.jpg');
   opacity: 0.8;
   top: 0;
