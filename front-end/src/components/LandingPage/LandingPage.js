@@ -12,7 +12,7 @@ export const LandingPage = () => {
         <section id='landing-photo-grid'>
           <div className='landing-photo-container photo-container-bg-1'>
             <div className='landing-photo-hidden-text-wrapper'>
-              <p className='landing-photo-hidden-text'>look around!</p>
+              <p className='landing-photo-hidden-text'>puff puff give</p>
             </div>
             <img
               className='landing-photo'
@@ -21,7 +21,7 @@ export const LandingPage = () => {
           </div>
           <div className='landing-photo-container photo-container-bg-2'>
             <div className='landing-photo-hidden-text-wrapper'>
-              <p className='landing-photo-hidden-text'>jump jump!</p>
+              <p className='landing-photo-hidden-text'>keep a weed journal</p>
             </div>
             <img
               className='landing-photo'
@@ -30,7 +30,7 @@ export const LandingPage = () => {
           </div>
           <div className='landing-photo-container photo-container-bg-3'>
             <div className='landing-photo-hidden-text-wrapper'>
-              <p className='landing-photo-hidden-text'>huge stuff!</p>
+              <p className='landing-photo-hidden-text'>rate strains</p>
             </div>
             <img
               className='landing-photo'
@@ -39,7 +39,7 @@ export const LandingPage = () => {
           </div>
           <div className='landing-photo-container photo-container-bg-4'>
             <div className='landing-photo-hidden-text-wrapper'>
-              <p className='landing-photo-hidden-text'>hey thats my mom!</p>
+              <p className='landing-photo-hidden-text'>recommend your favorites to your friends</p>
             </div>
             <img
               className='landing-photo'
@@ -48,7 +48,7 @@ export const LandingPage = () => {
           </div>
           <div className='landing-photo-container photo-container-bg-5'>
             <div className='landing-photo-hidden-text-wrapper'>
-              <p className='landing-photo-hidden-text'>dear gawd!</p>
+              <p className='landing-photo-hidden-text'>upload awesome photos</p>
             </div>
             <img
               className='landing-photo'
@@ -57,10 +57,7 @@ export const LandingPage = () => {
           </div>
           <div className='landing-photo-container photo-container-bg-6'>
             <div className='landing-photo-hidden-text-wrapper'>
-              <p className='landing-photo-hidden-text'>
-                if there was a large amount of text it would look like this good
-                sah!
-              </p>
+              <p className='landing-photo-hidden-text'>puff puff give</p>
             </div>
             <img
               className='landing-photo'
